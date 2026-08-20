@@ -1,7 +1,7 @@
 # 1. What is the length of the contacts list?
 
 contacts = []
-
+len(contacts)
 
 # 2. Add the following people to the contacts list.
 
@@ -35,6 +35,8 @@ tom = {
     'title': 'instructor'
 }
 
+contacts.append([tom, andrew, tony, matt, jake])
 
 # 3. Woops after adding all of those people to the same contacts list you realized you need a list just the instructors.
 # create a new variable named instructors and populate it using the contacts list.
+instructors = contacts[contacts['title'] == 'instructor']
