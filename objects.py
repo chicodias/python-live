@@ -6,5 +6,9 @@ me = {
     'hair color': 'brown'
 }
 
+me['name'] = 'Francisco Miranda'
+me['age'] = 33
+me['hair color'] = 'brown'
 
 # 2. Iterate over the object to print the property or key names
+me.keys()
