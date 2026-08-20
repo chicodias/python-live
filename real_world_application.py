@@ -61,6 +61,10 @@ crayola1990 = [
 
 # Create a loop that will iterate over each item in the list and then use the String methods to modify the value at the current position in the list
 
+for item in crayola1990:
+    if item == 'Almond':
+        item.upper()
+    
 # ***** HINTS *******
 # Remember strings are immutable but the value of a variable can be adjusted as often as needed.
 # Take advantage of the methods available on strings https://docs.python.org/3/library/stdtypes.html#string-methods
