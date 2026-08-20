@@ -61,9 +61,8 @@ crayola1990 = [
 
 # Create a loop that will iterate over each item in the list and then use the String methods to modify the value at the current position in the list
 
-for item in crayola1990:
-    if item == 'Almond':
-        item.upper()
+for i in range(len(crayola1990)):
+    crayola1990[i] = '-'.join(crayola1990[i].lower().split())
     
 # ***** HINTS *******
 # Remember strings are immutable but the value of a variable can be adjusted as often as needed.
